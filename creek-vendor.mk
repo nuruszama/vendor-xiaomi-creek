@@ -1284,3 +1284,63 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/creek/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so \
     vendor/xiaomi/creek/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/xiaomi/creek/proprietary/vendor/rfs/rfs_symlinks:$(TARGET_COPY_OUT_VENDOR)/rfs/rfs_symlinks
+
+PRODUCT_PACKAGES += \
+    CACertService \
+    CneApp \
+    IWlanService \
+    TimeService \
+    TrustZoneAccessService \
+    TxPwrAdmin \
+    compatibility_matrix.xml \
+    manifest.xml \
+    android.hardware.biometrics.fingerprint@2.1-service.xml \
+    android.hardware.boot@1.2.xml \
+    android.hardware.gnss-aidl-service-qti.xml \
+    android.hardware.graphics.mapper-impl-qti-display.xml \
+    android.hardware.health-service.qti.xml \
+    android.hardware.ir-service.example.xml \
+    android.hardware.radio.config.xml \
+    android.hardware.radio.data.xml \
+    android.hardware.radio.messaging.xml \
+    android.hardware.radio.modem.xml \
+    android.hardware.radio.network.xml \
+    android.hardware.radio.sim.xml \
+    android.hardware.radio.voice.xml \
+    android.hardware.security.keymint-service-qti.xml \
+    android.hardware.sensors@2.1-multihal.xml \
+    android.hardware.thermal@2.0-service.qti.xml \
+    android.hardware.usb.gadget@1.1-service.xml \
+    android.hardware.usb@1.2-service.xml \
+    android.hardware.wifi.hostapd.xml \
+    android.hardware.wifi.supplicant.xml \
+    android.hardware.wifi@1.0-service.xml \
+    c2_manifest_vendor_audio.xml \
+    c2_manifest_vendor_creek.xml \
+    manifest_android.hardware.drm-service.widevine.xml \
+    manifest_vendor.xiaomi.hardware.mfidoca.xml \
+    manifest_vendor.xiaomi.hardware.tidaservice.xml \
+    power.xml \
+    qcrilhook-saidl.xml \
+    qtiradio-saidl.xml \
+    vendor.dolby.hardware.dms.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.gnss-service.xml \
+    vendor.qti.hardware.display.allocator-service.xml \
+    vendor.qti.hardware.display.composer-service.xml \
+    vendor.qti.hardware.lights.service.xml \
+    vendor.qti.hardware.perf.xml \
+    vendor.qti.hardware.radio.ims.xml \
+    vendor.qti.hardware.trustedui@1.0-service-qti.xml \
+    vendor.qti.hardware.vibrator.service.xml \
+    vendor.xiaomi.hardware.displayfeature@1.0-service.xml \
+    vendor.xiaomi.hardware.micharge@1.0.xml \
+    vendor.xiaomi.hardware.misys@1.0.xml \
+    vendor.xiaomi.hardware.misys@2.0.xml \
+    vendor.xiaomi.hardware.misys@3.0.xml \
+    vendor.xiaomi.hardware.misys@4.0.xml \
+    vendor.xiaomi.hw.touchfeature@1.0-service.xml \
+    manifest_vendor.xiaomi.hardware.mlipay.xml \
+    manifest_vendor.xiaomi.hardware.mtdservice.xml \
+    vendor.xiaomi.sensor.citsensorservice.aidl.xml \
+    odm_manifest.xml
